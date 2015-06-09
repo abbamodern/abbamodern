@@ -1,0 +1,81 @@
+body{
+	margin: 0;
+	padding: 0;
+	min-height: 5000px;
+}
+
+@font-face {
+    font-family: Ostrich;
+    src: url(ostrich-regular.ttf);
+}
+
+#container{
+	position: relative;
+
+}
+.scroll{
+	background: url(../img/background.jpg) fixed;
+	/*background: fixed;*/
+}
+
+.first-slide{
+	position: relative;
+	height: 100%;
+}
+
+.background-photo{
+	position: absolute;
+	width: 100%;
+}
+
+.background-photo img{
+	width: 100%;
+}
+
+.abba-modern{
+	font-family: Ostrich;
+	font-size: 8em;
+	color: #ffffff;
+	position: absolute;
+	left: calc(50% - 264px);
+	top: calc(25% + 40px);
+}
+
+.sub-header{
+	font-family: Ostrich;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 2em;
+	position: absolute;
+	left: calc(50% - 123px);
+	top: calc(50% + 16px);
+}
+
+.temp-slide{
+	position: relative;
+}
+
+.temp-slide img{
+	width: 100%;
+}
+
+.nav-circles{
+	z-index: 10;
+	position: fixed;
+	left: 95%;
+	top: calc(50% - 20px);
+}
+
+.circle{
+	padding: 5px;
+	height: 15px;
+}
+
+.circle img{
+	height: 15px;
+}
+
+.circle:hover{
+	opacity: .5;
+}
+
