@@ -1,7 +1,15 @@
+html{
+	height: 100%;
+	overflow: hidden;
+}
+
 body{
 	margin: 0;
-	padding: 0;
-	min-height: 5000px;
+ 	perspective: 1px;
+ 	transform-style: preserve-3d;
+ 	height: 100%;
+ 	overflow-y: scroll;
+ 	overflow-x: hidden;
 }
 
 @font-face {
@@ -9,54 +17,30 @@ body{
     src: url(ostrich-regular.ttf);
 }
 
+.scroll {
+	padding: 10vh 10%;
+	position: relative;
+	min-height: 100vh;
+	width: 100vw;
+	transform-style: inherit;
+}
+
+.scroll, .scroll:before {
+	background: 50% 50% / cover;  
+}
+
+.scroll:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left:0;
+	right:0;
+}
+
 #container{
 	position: relative;
 
-}
-.scroll{
-	background: url(../img/background.jpg) fixed;
-	/*background: fixed;*/
-}
-
-.first-slide{
-	position: relative;
-	height: 100%;
-}
-
-.background-photo{
-	position: absolute;
-	width: 100%;
-}
-
-.background-photo img{
-	width: 100%;
-}
-
-.abba-modern{
-	font-family: Ostrich;
-	font-size: 8em;
-	color: #ffffff;
-	position: absolute;
-	left: calc(50% - 264px);
-	top: calc(25% + 40px);
-}
-
-.sub-header{
-	font-family: Ostrich;
-	text-transform: uppercase;
-	color: #ffffff;
-	font-size: 2em;
-	position: absolute;
-	left: calc(50% - 123px);
-	top: calc(50% + 16px);
-}
-
-.temp-slide{
-	position: relative;
-}
-
-.temp-slide img{
-	width: 100%;
 }
 
 .nav-circles{
@@ -79,3 +63,120 @@ body{
 	opacity: .5;
 }
 
+.first-slide:before{
+	background: url(../img/wasting.jpg);
+	background-size: 100%;
+	transform: translateZ(-1px) scale(2);
+	z-index:-1;
+}
+
+.abba-modern{
+	font-family: Ostrich;
+	font-size: 8em;
+	color: #ffffff;
+	position: absolute;
+	left: calc(50% - 383px);
+	top: calc(25%);
+}
+
+.sub-header{
+	font-family: Ostrich;
+	text-transform: uppercase;
+	color: #ffffff;
+	font-size: 2em;
+	position: absolute;
+	left: calc(50% - 242px);
+	top: calc(25% + 120px);
+}
+
+.about{
+/*	background: url(../img/contemp.jpg);
+	background-size: 100%;
+	transform: translateZ(-1px) scale(2);
+	z-index: 0;*/
+	background: #ffffff
+}
+
+.about-header{
+	font-family: Ostrich;
+	font-size: 4em;
+	font-weight: 400;
+	position: absolute;
+	left: calc(50% - 177px);
+	top: 100px;
+}
+
+.collage{
+	position: absolute;
+	left: calc(50% - 494px);
+	top: 180px;
+}
+
+.about-description{
+	font-family: Open Sans;
+	font-size: 14px;
+	width: 750px;
+	line-height: 200%;
+	position: absolute;
+	left: calc(50% - 494px);
+	top: 380px;
+	font-weight: 300;
+}
+
+.media:before{
+	background: url(../img/joy.jpg);
+	background-size: 100%;
+	transform: translateZ(-1px) scale(2);
+	z-index:-1;
+}
+
+.media-header{
+	color: #ffffff;
+	font-family: Ostrich;
+	font-size: 4em;
+	position: absolute;
+	left: calc(50% - 171px);
+	top: 100px
+}
+
+.media-description{
+	color: #ffffff;
+	font-family: Open Sans;
+	width: 750;
+	position: absolute;
+	left: calc(50% - 494px);
+	top: 180px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 200%;
+}
+
+.media-item-container{
+	float: left;
+	padding: 40px;
+}
+
+.media-item-header{
+	clear: both;
+	color: #ffffff;
+	font-family: Ostrich;
+	font-size: 2em;
+	position: relative;
+	top: 230px;
+	text-align: center;
+}
+
+.media-item{
+	position: relative;
+	top: 250px;
+}
+
+.audio-title{
+	font-family: Open Sans;
+	font-size: 12px;
+	color: #ffffff;
+	position: relative;
+	top: 260px;
+	font-weight: 300;
+	padding-bottom: 50px;
+}
