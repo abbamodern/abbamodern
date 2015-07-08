@@ -17,6 +17,10 @@ body{
     src: url(ostrich-regular.ttf);
 }
 
+a {
+	color: #ffffff;
+  text-decoration: none;
+}
 .scroll {
 	padding: 10vh 10%;
 	position: relative;
@@ -41,6 +45,38 @@ body{
 #container{
 	position: relative;
 
+}
+
+.nav-pills {
+	font-family: Ostrich;
+	border-radius: 4px;
+	position: absolute;
+	left: calc(33% - 240px);
+	top: calc(60%);
+
+}
+
+.nav-pills>li {
+	display: inline;
+	float: left;
+}
+
+.nav-pills>li>a {
+	padding: 10px 15px; 
+	display: block;
+  width: 60px;
+  border-radius: 15px;
+  border: 2px solid #ffffff;
+  margin: 15px;
+  text-align:center;
+}
+
+.nav-pills>li>a:hover {
+	padding: 10px 15px; 
+	display: block;
+  width: 60px;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 .nav-circles{
@@ -76,7 +112,7 @@ body{
 	color: #ffffff;
 	position: absolute;
 	left: calc(50% - 383px);
-	top: calc(25%);
+	top: calc(20%);
 }
 
 .sub-header{
@@ -85,8 +121,14 @@ body{
 	color: #ffffff;
 	font-size: 2em;
 	position: absolute;
-	left: calc(50% - 242px);
-	top: calc(25% + 120px);
+	left: calc(50% - 262px);
+	top: calc(20% + 130px);
+}
+
+.sub {
+	font-size: 1em;
+	left: calc(50% - 248px);
+	top: calc(20% + 170px);
 }
 
 .about{
@@ -128,6 +170,9 @@ body{
 	background-size: 100%;
 	transform: translateZ(-1px) scale(2);
 	z-index:-1;
+}
+
+.media {
 }
 
 .media-header{
