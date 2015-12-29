@@ -1,0 +1,175 @@
+/* ============================================================
+  SECTIONS
+============================================================ */
+section.module:last-child {
+  margin-bottom: 0;
+}
+section.module h2 {
+  margin-bottom: 40px;
+  font-family: "Roboto Slab", serif;
+  font-size: 30px;
+}
+section.module p {
+  margin-bottom: 40px;
+  font-size: 16px;
+  font-weight: 300;
+}
+section.module p:last-child {
+  margin-bottom: 0;
+}
+section.module.content {
+  padding: 40px 0;
+}
+section.module.parallax {
+  padding: 240px 0;
+  background-position: 0 0;
+}
+section.module.parallax h1 {
+  color: #1e1e1e;
+  font-size: 48px;
+  line-height: 1;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px white;
+}
+section.module.parallax-1 {
+  background-image: url("../img/wasting.jpg");
+}
+section.module.parallax-2 {
+  background-image: url("../img/toy set copy.jpg");
+}
+section.module.parallax-3 {
+  background-image: url("../img/clear-the-stage copy.jpg");
+}
+
+@font-face {
+    font-family: Ostrich;
+    src: url(ostrich-regular.ttf);
+}
+
+/* ============================================================
+  MY STYLES
+============================================================ */
+
+.header{
+  font-family: Ostrich;
+  color: white;
+  text-align: center;
+  font-size: 80px;
+}
+
+.subheader{
+  font-family: Open Sans;
+  color: white;
+  text-align: center;
+  margin-top: -10px;
+  font-weight: 300;
+}
+
+.info-header{
+  font-family: Ostrich;
+  text-align: center;
+  font-size: 50px;
+}
+
+.info-header-2{
+  font-family: Ostrich;
+  text-align: center;
+  font-size: 40px;
+}
+
+.media-item{
+  position: relative;
+  /* margin-left: 10px; */
+}
+
+p{
+  font-family: Open Sans;
+}
+
+iframe{
+  width: 480px;
+  height: 270px;
+}
+
+/* ============================================================
+  MEDIA QUERIES
+============================================================ */
+
+@media all and (min-width: 600px) {
+  section.module h2 {
+    font-size: 42px;
+  }
+  section.module p {
+    font-size: 20px;
+  }
+  section.module.parallax {
+    padding: 200px 0;
+  }
+  section.module.parallax h1 {
+    font-size: 96px;
+  }
+
+  .header{
+    font-size: 125px;
+  }
+
+  .subheader{
+    font-size: 16px;
+    margin-top: -30px;
+  }
+
+  .info-header{
+    font-size: 60px;
+  }
+
+  .info-header-2{
+    font-size: 50px;
+  }
+
+  iframe{
+    width: 720px;
+    height: 405px;
+  }
+
+  .media-item{
+    position: relative;
+    margin-left: 40px;
+  }
+
+}
+@media all and (min-width: 960px) {
+  section.module.parallax h1 {
+    font-size: 160px;
+  }
+
+  .header{
+    font-size: 150px;
+  }
+
+  .subheader{
+    font-size: 20px;
+    margin-top: -40px;
+  }
+
+  .info-header{
+    font-size: 75px;
+  }
+
+  .info-header-2{
+    font-size: 60px;
+  }
+
+  .media-item{
+    position: relative;
+    margin-left: 40px;
+  }
+
+  iframe{
+    width: 800px;
+    height: 450px; 
+  }
+
+}
+
