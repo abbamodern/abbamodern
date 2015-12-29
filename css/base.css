@@ -32,7 +32,7 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+/*ol, ul {
   list-style: none;
 }
 
@@ -49,7 +49,7 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
-}
+}*/
 
 /* ============================================================
   BOX SIZING & CLEARFIX
@@ -102,7 +102,7 @@ main {
   HEADER & SITE TITLE
 ============================================================ */
 /* header */
-header .branding {
+/*header .branding {
   padding: 20px 0;
 }
 header .logo {
@@ -173,7 +173,7 @@ header .social a:hover {
     width: 100%;
     text-align: right;
   }
-}
+}*/
 /* site title */
 .site-title {
   padding: 5px 0;
@@ -190,13 +190,13 @@ header .social a:hover {
 footer {
   padding: 20px 0;
 }
-footer .asides {
+/*footer .asides {
   margin-bottom: 20px;
 }
 footer aside {
   margin-bottom: 10px;
-}
-footer nav ul {
+}*/
+/*footer nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -204,13 +204,13 @@ footer nav ul {
 }
 footer nav li {
   display: inline-block;
-}
+}*/
 footer nav a {
   display: block;
   margin: 0 5px;
   color: #fff;
 }
-footer .logo {
+/*footer .logo {
   text-align: center;
 }
 footer .logo img {
@@ -226,9 +226,9 @@ footer .copyright small {
 }
 footer .copyright a {
   color: #fff;
-}
+}*/
 
-@media all and (min-width: 600px) {
+/*@media all and (min-width: 600px) {
   footer aside {
     margin-bottom: 0;
     float: left;
@@ -247,11 +247,11 @@ footer .copyright a {
   footer .logo {
     text-align: right;
   }
-}
+}*/
 /* ============================================================
   FUSION ADS
 ============================================================ */
-#fusionads {
+/*#fusionads {
   position: fixed;
   top: 10px;
   right: 10px;
@@ -309,7 +309,7 @@ footer .copyright a {
   color: #fff;
   font-size: 12px;
   font-weight: 700;
-}
+}*/
 
 /* ============================================================
   TEXT LEVEL SEMANTICS

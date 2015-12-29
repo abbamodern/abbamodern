@@ -93,6 +93,23 @@ iframe{
   height: 198px;
 }
 
+#banner{
+  font-family: Ostrich;
+  color: white;
+  font-size: 60px;
+  margin-left: 5px;
+}
+
+.social-item{
+  display: inline-block;
+  margin: 10px;
+  opacity: .4;
+}
+
+.social-item:hover{
+  opacity: .8;
+}
+
 /* ============================================================
   MEDIA QUERIES
 ============================================================ */
@@ -129,8 +146,8 @@ iframe{
   }
 
   iframe{
-    width: 720px;
-    height: 405px;
+    width: 560px;
+    height: 315px;
   }
 
   .media-item{
