@@ -6,8 +6,8 @@
   window.onscroll = function(){
     [].slice.call(parallax).forEach(function(el,i){
 
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "0 " + (windowYOffset * speed) + "px";
+      var offset = window.pageYOffset,
+          elBackgrounPos = "0 " + (offset * speed) + "px";
       
       el.style.backgroundPosition = elBackgrounPos;
 

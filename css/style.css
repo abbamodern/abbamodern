@@ -79,11 +79,6 @@ section.module.parallax-3 {
   font-size: 40px;
 }
 
-.media-item{
-  position: relative;
-  /* margin-left: 10px; */
-}
-
 p{
   font-family: Open Sans;
 }
@@ -91,6 +86,8 @@ p{
 iframe{
   width: 352px;
   height: 198px;
+  display: block;
+  margin: 0 auto;
 }
 
 #banner{
@@ -108,6 +105,24 @@ iframe{
 
 .social-item:hover{
   opacity: .8;
+}
+
+.social-item img{
+  width: 50px;
+}
+
+#credits{
+  color: white;
+  padding: 0 30px;
+  opacity: .4;
+  font-family: Open Sans;
+  font-size: 8px;
+}
+
+#christmas img{
+  width: 350px;
+  display: block;
+  margin: 0 auto;
 }
 
 /* ============================================================
@@ -148,11 +163,19 @@ iframe{
   iframe{
     width: 560px;
     height: 315px;
+    display: block;
+    margin: 0 auto;
   }
 
   .media-item{
     position: relative;
     margin-left: 40px;
+  }
+
+  #christmas img{
+    display: block;
+    width: 540px;
+    margin: 0 auto;
   }
 
 }
@@ -186,6 +209,10 @@ iframe{
   iframe{
     width: 800px;
     height: 450px; 
+  }
+
+  #christmas img{
+    width: 900px;
   }
 
 }
