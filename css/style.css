@@ -43,6 +43,15 @@ section.module.parallax-3 {
   background-image: url("../img/clear-the-stage copy.jpg");
 }
 
+section.module.about-parallax {
+  background-image: url("../img/background copy.jpg");
+}
+
+section.module.about-parallax {
+  padding: 100px 0;
+  background-position: 0 0;
+}
+
 @font-face {
     font-family: Ostrich;
     src: url(ostrich-regular.ttf);
@@ -51,6 +60,30 @@ section.module.parallax-3 {
 /* ============================================================
   MY STYLES
 ============================================================ */
+
+.nav-item{
+  color: #fff;
+  display: inline-block;
+  font-family: Ostrich;
+  font-size: 20px;
+  padding: 0 20px;
+}
+
+.nav-item a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-item img{
+  width: 50px;
+  position: absolute;
+  left: 15px;
+  top: 15px;
+}
+
+.nav-container{
+  text-align: center;
+}
 
 .header{
   font-family: Ostrich;
@@ -125,8 +158,31 @@ iframe{
   margin: 0 auto;
 }
 
+.media-item{
+  margin-bottom: 20px;
+}
+
+.read-more{
+  font-family: Open Sans;
+  text-align: center;
+}
+
 /* ============================================================
-  MEDIA QUERIES
+ABOUT PAGE SPECIFICS
+============================================================ */
+
+#quote{
+  font-style: italic;
+}
+
+.roster{
+  text-align: center;
+}
+
+
+
+/* ============================================================
+  MEDIA QUERY 600-960px
 ============================================================ */
 
 @media all and (min-width: 600px) {
@@ -178,7 +234,21 @@ iframe{
     margin: 0 auto;
   }
 
+  .nav-container{
+    text-align: right;
+  } 
+
+  section.module.about-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
 }
+
+/* ============================================================
+  MEDIA QUERY <960px
+============================================================ */
+
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
@@ -214,6 +284,16 @@ iframe{
   #christmas img{
     width: 900px;
   }
+
+  .nav-container{
+    text-align: right;
+  }
+
+  section.module.about-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
 
 }
 
