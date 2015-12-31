@@ -47,7 +47,16 @@ section.module.about-parallax {
   background-image: url("../img/background copy.jpg");
 }
 
+section.module.performances-parallax {
+  background-image: url("../img/prelude copy.jpg");
+}
+
 section.module.about-parallax {
+  padding: 100px 0;
+  background-position: 0 0;
+}
+
+section.module.performances-parallax{
   padding: 100px 0;
   background-position: 0 0;
 }
@@ -100,6 +109,10 @@ section.module.about-parallax {
   font-weight: 300;
 }
 
+.frontpage{
+  margin-top: -40px;
+}
+
 .info-header{
   font-family: Ostrich;
   text-align: center;
@@ -132,7 +145,7 @@ iframe{
 
 .social-item{
   display: inline-block;
-  margin: 10px;
+  margin: 5px;
   opacity: .4;
 }
 
@@ -141,7 +154,13 @@ iframe{
 }
 
 .social-item img{
-  width: 50px;
+  width: 40px;
+}
+
+.social-container{
+  width: 225px;
+  display: block;
+  margin: 0 auto;
 }
 
 #credits{
@@ -238,7 +257,28 @@ ABOUT PAGE SPECIFICS
     text-align: right;
   } 
 
+  .social-item{
+    display: inline-block;
+    margin: 10px;
+    opacity: .4;
+  }
+
+  .social-item img{
+    width: 50px;
+  }
+
+  .social-container{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
   section.module.about-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
+  section.module.performances-parallax {
     padding: 100px 0;
     background-position: 0 0;
   }
@@ -289,7 +329,28 @@ ABOUT PAGE SPECIFICS
     text-align: right;
   }
 
+  .social-item{
+    display: inline-block;
+    margin: 10px;
+    opacity: .4;
+  }
+
+  .social-item img{
+    width: 50px;
+  }
+
+  .social-container{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
   section.module.about-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
+  section.module.performances-parallax {
     padding: 100px 0;
     background-position: 0 0;
   }
