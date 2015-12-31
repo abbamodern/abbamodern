@@ -51,12 +51,21 @@ section.module.performances-parallax {
   background-image: url("../img/prelude copy.jpg");
 }
 
+section.module.upcoming-parallax {
+  background-image: url("../img/oceans copy.jpg");
+}
+
 section.module.about-parallax {
   padding: 100px 0;
   background-position: 0 0;
 }
 
 section.module.performances-parallax{
+  padding: 100px 0;
+  background-position: 0 0;
+}
+
+section.module.upcoming-parallax{
   padding: 100px 0;
   background-position: 0 0;
 }
@@ -283,6 +292,11 @@ ABOUT PAGE SPECIFICS
     background-position: 0 0;
   }
 
+  section.module.upcoming-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
 }
 
 /* ============================================================
@@ -351,6 +365,11 @@ ABOUT PAGE SPECIFICS
   }
 
   section.module.performances-parallax {
+    padding: 100px 0;
+    background-position: 0 0;
+  }
+
+  section.module.upcoming-parallax {
     padding: 100px 0;
     background-position: 0 0;
   }
