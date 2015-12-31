@@ -4,11 +4,7 @@
 section.module:last-child {
   margin-bottom: 0;
 }
-section.module h2 {
-  margin-bottom: 40px;
-  font-family: "Roboto Slab", serif;
-  font-size: 30px;
-}
+
 section.module p {
   margin-bottom: 40px;
   font-size: 16px;
@@ -24,15 +20,7 @@ section.module.parallax {
   padding: 240px 0;
   background-position: 0 0;
 }
-section.module.parallax h1 {
-  color: #1e1e1e;
-  font-size: 48px;
-  line-height: 1;
-  font-weight: 700;
-  text-align: center;
-  text-transform: uppercase;
-  text-shadow: 0 0 10px white;
-}
+
 section.module.parallax-1 {
   background-image: url("../img/wasting.jpg");
 }
@@ -70,13 +58,28 @@ section.module.upcoming-parallax{
   background-position: 0 0;
 }
 
+/* ============================================================
+  HTML SEMANTICS
+============================================================ */
+
 @font-face {
     font-family: Ostrich;
     src: url(ostrich-regular.ttf);
 }
 
+p{
+  font-family: Open Sans;
+}
+
+iframe{
+  width: 352px;
+  height: 198px;
+  display: block;
+  margin: 0 auto;
+}
+
 /* ============================================================
-  MY STYLES
+  NAVIGATION
 ============================================================ */
 
 .nav-item{
@@ -103,6 +106,11 @@ section.module.upcoming-parallax{
   text-align: center;
 }
 
+/* ============================================================
+  HEADINGS
+============================================================ */
+
+
 .header{
   font-family: Ostrich;
   color: white;
@@ -118,10 +126,6 @@ section.module.upcoming-parallax{
   font-weight: 300;
 }
 
-.frontpage{
-  margin-top: -40px;
-}
-
 .info-header{
   font-family: Ostrich;
   text-align: center;
@@ -134,16 +138,10 @@ section.module.upcoming-parallax{
   font-size: 40px;
 }
 
-p{
-  font-family: Open Sans;
+.frontpage{
+  margin-top: -40px;
 }
 
-iframe{
-  width: 352px;
-  height: 198px;
-  display: block;
-  margin: 0 auto;
-}
 
 #banner{
   font-family: Ostrich;
@@ -151,6 +149,10 @@ iframe{
   font-size: 60px;
   margin-left: 5px;
 }
+
+/* ============================================================
+  FOOTER
+============================================================ */
 
 .social-item{
   display: inline-block;
@@ -179,6 +181,10 @@ iframe{
   font-family: Open Sans;
   font-size: 8px;
 }
+
+/* ============================================================
+  ETC
+============================================================ */
 
 #christmas img{
   width: 350px;
